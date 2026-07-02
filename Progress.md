@@ -5,3 +5,7 @@
 
 2. Parenthesis Checker
 
+3. Remove all Adjacent Duplicates in String
+
+4. Baseball Game
+
