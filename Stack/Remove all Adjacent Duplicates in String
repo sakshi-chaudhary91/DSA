@@ -1,3 +1,10 @@
+/*
+Question: Remove all Adjacent Duplicates in String 
+Platform: LeetCode
+Topic: Stack
+*/
+
+
 class Solution {
     public String removeDuplicates(String s) {
         StringBuilder sb = new StringBuilder();
