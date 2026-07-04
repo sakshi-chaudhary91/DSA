@@ -13,3 +13,5 @@
 
 6. Next Greater Element
 
+7. Next Greater Element 2
+
