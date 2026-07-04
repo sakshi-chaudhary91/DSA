@@ -17,3 +17,5 @@
 
 8. Stock Span Problem
 
+9. The Celebrity Problem
+
