@@ -9,19 +9,23 @@
 
 4. Baseball Game
 
-5. Remove Nodes From Linked List
+## Day 2
 
-6. Next Greater Element
+6. Remove Nodes From Linked List
 
-7. Next Greater Element 2
+7. Next Greater Element
 
-8. Stock Span Problem
+8. Next Greater Element 2
 
-9. The Celebrity Problem
+9. Stock Span Problem
 
-10. Number of Visible People in a Queue
+10. The Celebrity Problem
 
-11. Largest Rectangle in Histogram
+## Day 3
 
-12. Min Stack
+12. Number of Visible People in a Queue
+
+13. Largest Rectangle in Histogram
+
+14. Min Stack
 
