@@ -23,3 +23,5 @@
 
 11. Largest Rectangle in Histogram
 
+12. Min Stack
+
