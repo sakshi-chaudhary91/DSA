@@ -15,3 +15,5 @@
 
 7. Next Greater Element 2
 
+8. Stock Span Problem
+
