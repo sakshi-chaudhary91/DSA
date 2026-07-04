@@ -19,3 +19,5 @@
 
 9. The Celebrity Problem
 
+10. Number of Visible People in a Queue
+
