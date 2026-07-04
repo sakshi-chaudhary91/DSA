@@ -11,3 +11,5 @@
 
 5. Remove Nodes From Linked List
 
+6. Next Greater Element
+
