@@ -33,3 +33,11 @@
 
 15. Find the winner of the Circular Game
 
+16. Implement Queue using Stack
+
+17. Implement Stack using Queues
+
+18. Interleave the First Half of the Queue with Second Half
+
+19. First negative in every window of size k
+
