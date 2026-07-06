@@ -1,0 +1,26 @@
+class Solution {
+    public static ArrayList<Integer> rearrangeQueue(Queue<Integer> q) {
+        ArrayList<Integer> result = new ArrayList<>();
+        if (q == null || q.isEmpty()) return result;
+        
+        int N = q.size();
+        int half = N / 2;
+        
+        Queue<Integer> tempQueue = new LinkedList<>();
+        for (int i = 0; i < half; i++) {
+            tempQueue.add(q.remove());
+        }
+        while (!tempQueue.isEmpty()) {
+            int first = tempQueue.remove();
+            int second = q.remove();
+            
+            
+            result.add(first);
+            result.add(second);
+            q.add(first);
+            q.add(second);
+        }
+        
+        return result;
+    }
+}
