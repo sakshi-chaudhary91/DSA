@@ -57,3 +57,9 @@
 
 26. Symmetric Tree
 
+27. Root to Leaf Paths
+
+28. Level Order Traversal
+
+29. Zig Zag Tree Traversal
+
