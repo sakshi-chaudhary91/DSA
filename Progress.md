@@ -49,9 +49,11 @@
 
 22. Postorder Traversal
 
-23. Mirror Tree
+23. Path Sum
 
-24. Identical Trees
+24. Mirror Tree
 
-25. Symmetric Tree
+25. Identical Trees
+
+26. Symmetric Tree
 
