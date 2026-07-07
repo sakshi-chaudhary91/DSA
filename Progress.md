@@ -53,3 +53,5 @@
 
 24. Identical Trees
 
+25. Symmetric Tree
+
