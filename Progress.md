@@ -45,3 +45,5 @@
 
 20. Preorder Traversal
 
+21. In Order Traversal
+
