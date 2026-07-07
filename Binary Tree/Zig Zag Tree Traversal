@@ -1,0 +1,37 @@
+class Solution {
+    public ArrayList<Integer> zigZagTraversal(Node root) {
+        ArrayList<Integer> result = new ArrayList<>();
+        
+        if (root == null) {
+            return result;
+        }
+        
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        boolean leftToRight = true;
+        
+        while (!queue.isEmpty()) {
+            int levelSize = queue.size();
+            LinkedList<Integer> currentLevel = new LinkedList<>();
+            
+            for (int i = 0; i < levelSize; i++) {
+                Node currentNode = queue.poll();
+                if (leftToRight) {
+                    currentLevel.addLast(currentNode.data); 
+                } else {
+                    currentLevel.addFirst(currentNode.data); 
+                }
+                if (currentNode.left != null) {
+                    queue.add(currentNode.left);
+                }
+                if (currentNode.right != null) {
+                    queue.add(currentNode.right);
+                }
+            }
+            result.addAll(currentLevel);
+            leftToRight = !leftToRight;
+        }
+        
+        return result;
+    }
+}
