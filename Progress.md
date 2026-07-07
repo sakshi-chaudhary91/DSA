@@ -47,3 +47,5 @@
 
 21. In Order Traversal
 
+22. Postorder Traversal
+
