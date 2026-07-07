@@ -41,3 +41,7 @@
 
 19. First negative in every window of size k
 
+## Day 5
+
+20. Preorder Traversal
+
