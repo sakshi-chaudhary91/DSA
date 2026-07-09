@@ -63,3 +63,7 @@
 
 29. Zig Zag Tree Traversal
 
+## Day 6
+
+30.Balanced Tree Check
+
