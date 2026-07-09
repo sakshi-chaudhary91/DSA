@@ -1,0 +1,20 @@
+class Solution {
+    public ArrayList<ArrayList<Integer>> printPaths(Node root, int sum) {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        ArrayList<Integer> currentPath = new ArrayList<>();
+        
+        findPaths(root, sum, currentPath, result);
+        return result;
+    }
+    
+    private void findPaths(Node root, int remainingSum, ArrayList<Integer> currentPath, ArrayList<ArrayList<Integer>> result) {
+        if (root == null) return;
+        currentPath.add(root.key);
+        if (remainingSum == root.key) {
+            result.add(new ArrayList<>(currentPath));
+        }
+        findPaths(root.left, remainingSum - root.key, currentPath, result);
+        findPaths(root.right, remainingSum - root.key, currentPath, result);
+        currentPath.remove(currentPath.size() - 1);
+    }
+}
