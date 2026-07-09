@@ -85,6 +85,8 @@
 
 39. Construct Tree from Inorder & Preorder
 
+40. Construct Binary Search Tree from Preorder Traversal
+
 
 
 
