@@ -77,5 +77,7 @@
 
 35. Min distance between two nodes of a Binary Tree
 
+36. Flatten binary tree to linked list
+
 
 
