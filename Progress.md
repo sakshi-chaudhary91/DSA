@@ -75,5 +75,7 @@
 
 34. LCA in Binary Tree
 
+35. Min distance between two nodes of a Binary Tree
+
 
 
