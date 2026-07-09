@@ -65,5 +65,7 @@
 
 ## Day 6
 
-30.Balanced Tree Check
+30. Balanced Tree Check
+
+31. Diameter of a Binary Tree
 
