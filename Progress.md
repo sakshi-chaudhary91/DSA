@@ -11,7 +11,7 @@
 
 ## Day 2
 
-6. Remove Nodes From Linked List
+6. Remove Nodes From Linked List 
 
 7. Next Greater Element
 
