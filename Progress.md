@@ -1,6 +1,5 @@
 # DSA Progress
 
-## Day 1
 1. Replace Consecutive Two Same with One
 
 3. Parenthesis Checker
@@ -8,8 +7,6 @@
 4. Remove all Adjacent Duplicates in String 
 
 5. Baseball Game
-
-## Day 2
 
 6. Remove Nodes From Linked List 
 
@@ -21,15 +18,11 @@
 
 10. The Celebrity Problem
 
-## Day 3
-
 12. Number of Visible People in a Queue
 
 13. Largest Rectangle in Histogram
 
 14. Min Stack
-
-## Day 4
 
 15. Find the winner of the Circular Game
 
@@ -40,8 +33,6 @@
 18. Interleave the First Half of the Queue with Second Half
 
 19. First negative in every window of size k
-
-## Day 5
 
 20. Preorder Traversal
 
@@ -62,8 +53,6 @@
 28. Level Order Traversal
 
 29. Zig Zag Tree Traversal
-
-## Day 6
 
 30. Balanced Tree Check
 
@@ -86,6 +75,8 @@
 39. Construct Tree from Inorder & Preorder
 
 40. Construct Binary Search Tree from Preorder Traversal
+
+41. Search a node in BST
 
 
 
