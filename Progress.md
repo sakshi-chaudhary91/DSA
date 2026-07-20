@@ -78,6 +78,9 @@
 
 41. Search a node in BST
 
+42. BST Insert
+
+
 
 
 
