@@ -88,6 +88,8 @@
 
 46. Lowest Common Ancestor in a BST
 
+47. Array to BST
+
 
 
 
