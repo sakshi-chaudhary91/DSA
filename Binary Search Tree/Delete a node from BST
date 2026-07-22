@@ -1,0 +1,24 @@
+class Solution {
+    public Node delNode(Node root, int x) {
+        if (root == null) return null;
+        if (root.data > x) {
+            root.left = delNode(root.left, x);
+        } else if (root.data < x) {
+            root.right = delNode(root.right, x);
+        } else {
+            if (root.left == null) return root.right;
+            if (root.right == null) return root.left;
+            Node successor = getMin(root.right);
+            root.data = successor.data;
+            root.right = delNode(root.right, successor.data);
+        }
+
+        return root;
+    }
+    private Node getMin(Node node) {
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
+    }
+}
