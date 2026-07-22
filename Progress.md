@@ -82,6 +82,8 @@
 
 43. k-th Smallest in BST
 
+44. Check for BST
+
 
 
 
