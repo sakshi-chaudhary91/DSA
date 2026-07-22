@@ -1,0 +1,35 @@
+class NodeInfo {
+    int min;
+    int max;
+    int size;
+    boolean isBST;
+
+    NodeInfo(int min, int max, int size, boolean isBST) {
+        this.min = min;
+        this.max = max;
+        this.size = size;
+        this.isBST = isBST;
+    }
+}
+
+class Solution {
+    private static NodeInfo findLargestBST(Node root) {
+        if (root == null) {
+            return new NodeInfo(Integer.MAX_VALUE, Integer.MIN_VALUE, 0, true);
+        }
+        NodeInfo left = findLargestBST(root.left);
+        NodeInfo right = findLargestBST(root.right);
+        if (left.isBST && right.isBST && left.max < root.data && root.data < right.min) {
+            int size = left.size + right.size + 1;
+            int min = Math.min(root.data, left.min);
+            int max = Math.max(root.data, right.max);
+            
+            return new NodeInfo(min, max, size, true);
+        }
+        int maxSize = Math.max(left.size, right.size);
+        return new NodeInfo(Integer.MIN_VALUE, Integer.MAX_VALUE, maxSize, false);
+    }
+    static int largestBst(Node root) {
+        return findLargestBST(root).size;
+    }
+}
