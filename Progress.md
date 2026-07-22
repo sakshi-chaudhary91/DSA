@@ -86,6 +86,8 @@
 
 45. BST to Greater Sum Tree
 
+46. Lowest Common Ancestor in a BST
+
 
 
 
