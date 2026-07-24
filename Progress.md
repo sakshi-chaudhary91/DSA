@@ -96,6 +96,8 @@
 
 50. Maximum Sum BST in Binary Tree
 
+51. Kth Smallest
+
 
 
 
