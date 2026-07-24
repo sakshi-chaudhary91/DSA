@@ -108,6 +108,8 @@
 
 56. K Closest in a Sorted Array
 
+57. Top K Frequent in Array
+
 
 
 
