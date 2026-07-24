@@ -106,6 +106,9 @@
 
 55. K Closest Points to Origin
 
+56. K Closest in a Sorted Array
+
+
 
 
 
