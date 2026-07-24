@@ -1,0 +1,53 @@
+class Solution {
+    int[] printKClosest(int[] arr, int k, int x) {
+        int n = arr.length;
+        int left = findCrossOver(arr, 0, n - 1, x);
+        int right = left + 1;
+        if (right < n && arr[right] == x) {
+            right++;
+        }
+
+        int[] result = new int[k];
+        int count = 0;
+        while (left >= 0 && right < n && count < k) {
+            int leftDiff = Math.abs(arr[left] - x);
+            int rightDiff = Math.abs(arr[right] - x);
+            if (rightDiff <= leftDiff) {
+                result[count++] = arr[right];
+                right++;
+            } else {
+                result[count++] = arr[left];
+                left--;
+            }
+        }
+        while (count < k && left >= 0) {
+            result[count++] = arr[left];
+            left--;
+        }
+        while (count < k && right < n) {
+            if (arr[right] != x) {
+                result[count++] = arr[right];
+            }
+            right++;
+        }
+
+        return result;
+    }
+
+    private int findCrossOver(int[] arr, int low, int high, int x) {
+        if (arr[high] < x) return high;
+        if (arr[low] >= x) return low - 1;
+
+        int ans = -1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] < x) {
+                ans = mid;
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return ans;
+    }
+}
