@@ -1,0 +1,23 @@
+class Solution {
+    private static int index;
+
+    public static void convertToMaxHeapUtil(Node root) {
+        ArrayList<Integer> sortedValues = new ArrayList<>();
+        inorder(root, sortedValues);
+        index = 0;
+        postorder(root, sortedValues);
+    }
+    private static void inorder(Node root, ArrayList<Integer> list) {
+        if (root == null) return;
+        inorder(root.left, list);
+        list.add(root.data);
+        inorder(root.right, list);
+    }
+    private static void postorder(Node root, ArrayList<Integer> list) {
+        if (root == null) return;
+        
+        postorder(root.left, list);
+        postorder(root.right, list);
+        root.data = list.get(index++);
+    }
+}
