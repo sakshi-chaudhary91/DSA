@@ -1,0 +1,26 @@
+class Solution {
+    boolean isHeap(Node tree) {
+        if (tree == null) return true;
+        int totalNodes = countNodes(tree);
+        return isComplete(tree, 0, totalNodes) && isHeapProperty(tree);
+    }
+    private int countNodes(Node root) {
+        if (root == null) return 0;
+        return 1 + countNodes(root.left) + countNodes(root.right);
+    }
+    private boolean isComplete(Node root, int index, int nodeCount) {
+        if (root == null) return true;
+        if (index >= nodeCount) return false;
+        
+        return isComplete(root.left, 2 * index + 1, nodeCount) 
+            && isComplete(root.right, 2 * index + 2, nodeCount);
+    }
+    private boolean isHeapProperty(Node root) {
+        if (root.left == null && root.right == null) return true;
+        if (root.right == null) {
+            return root.data >= root.left.data;
+        } 
+        boolean currentIsValid = (root.data >= root.left.data) && (root.data >= root.right.data);
+        return currentIsValid && isHeapProperty(root.left) && isHeapProperty(root.right);
+    }
+}
