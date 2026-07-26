@@ -118,6 +118,8 @@
 
 61. Find distinct elements
 
+62. Two Sum - Pair with Given Sum
+
 
 
 
