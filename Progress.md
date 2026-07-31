@@ -140,6 +140,8 @@
 
 72. Clone List with Next and Random
 
+73. Count Pairs Divisible By K
+
     
 
 
