@@ -1,0 +1,15 @@
+class Solution {
+    public int countKdivPairs(int[] arr, int k) {
+        int[] remFreq = new int[k];
+        int count = 0;
+
+        for (int num : arr) {
+            int rem = ((num % k) + k) % k;
+            int targetRem = (rem == 0) ? 0 : (k - rem);
+            count += remFreq[targetRem];
+            remFreq[rem]++;
+        }
+
+        return count;
+    }
+}
