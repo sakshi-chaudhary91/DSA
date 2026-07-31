@@ -136,6 +136,8 @@
 
 70. Bottom View of Binary Tree
 
+71. Burning Tree
+
     
 
 
