@@ -126,6 +126,8 @@
 
 65. Array Subset
 
+66. Pairs with difference k
+
     
 
 
