@@ -132,6 +132,8 @@
 
 68. Count Equal Pairs in String
 
+69. Longest Substring with Distinct Characters
+
     
 
 
