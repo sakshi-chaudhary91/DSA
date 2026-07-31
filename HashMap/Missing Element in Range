@@ -1,0 +1,16 @@
+class Solution {
+    public static ArrayList<Integer> missingRange(int[] arr, int low, int high) {
+        HashSet<Integer> set = new HashSet<>();
+        for (int num : arr) {
+            set.add(num);
+        }
+
+        ArrayList<Integer> res = new ArrayList<>();
+        for (int num = low; num <= high; num++) {
+            if (!set.contains(num)) {
+                res.add(num);
+            }
+        }
+        return res;
+    }
+}
