@@ -1,0 +1,96 @@
+
+
+// Node structure (Provided by GFG)
+/*
+class Node {
+    int data;
+    Node left;
+    Node right;
+
+    Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+}
+*/
+
+class Solution {
+    public static int minTime(Node root, int target) {
+        if (root == null) return 0;
+        HashMap<Node, Node> parentMap = new HashMap<>();
+        Node targetNode = mapParentsAndFindTarget(root, parentMap, target);
+
+        HashMap<Node, Boolean> visitedMap = new HashMap<>();
+        Queue<Node> queue = new LinkedList<>();
+
+        queue.add(targetNode);
+        visitedMap.put(targetNode, true);
+
+        int time = 0;
+
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            boolean fireSpread = false; 
+            for (int i = 0; i < size; i++) {
+                Node curr = queue.poll();
+
+                
+                if (curr.left != null && !visitedMap.getOrDefault(curr.left, false)) {
+                    fireSpread = true;
+                    visitedMap.put(curr.left, true);
+                    queue.add(curr.left);
+                }
+
+                
+                if (curr.right != null && !visitedMap.getOrDefault(curr.right, false)) {
+                    fireSpread = true;
+                    visitedMap.put(curr.right, true);
+                    queue.add(curr.right);
+                }
+
+                
+                Node parent = parentMap.get(curr);
+                if (parent != null && !visitedMap.getOrDefault(parent, false)) {
+                    fireSpread = true;
+                    visitedMap.put(parent, true);
+                    queue.add(parent);
+                }
+            }
+
+
+            if (fireSpread) {
+                time++;
+            }
+        }
+
+        return time;
+    }
+
+    
+    private static Node mapParentsAndFindTarget(Node root, HashMap<Node, Node> parentMap, int target) {
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+        Node targetNode = null;
+
+        while (!queue.isEmpty()) {
+            Node curr = queue.poll();
+
+            if (curr.data == target) {
+                targetNode = curr;
+            }
+
+            if (curr.left != null) {
+                parentMap.put(curr.left, curr);
+                queue.add(curr.left);
+            }
+
+            if (curr.right != null) {
+                parentMap.put(curr.right, curr);
+                queue.add(curr.right);
+            }
+        }
+
+        return targetNode;
+    }
+}
