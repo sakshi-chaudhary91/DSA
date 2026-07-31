@@ -130,6 +130,8 @@
 
 67. Anagram
 
+68. Count Equal Pairs in String
+
     
 
 
