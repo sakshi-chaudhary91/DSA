@@ -144,6 +144,8 @@
 
 74. Check K-th Bit
 
+75. Set kth bit
+
     
 
 
