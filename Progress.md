@@ -146,6 +146,8 @@
 
 75. Set kth bit
 
+76. Set the rightmost unset bit
+
     
 
 
