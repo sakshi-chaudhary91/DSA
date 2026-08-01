@@ -160,6 +160,8 @@
 
 82. Power of Four
 
+83. XOR of a Number Range
+
 
     
 
