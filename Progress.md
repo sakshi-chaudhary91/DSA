@@ -152,6 +152,8 @@
 
 78. Count Set Bits
 
+79. Minimum Bit Flips to Convert Number
+
     
 
 
