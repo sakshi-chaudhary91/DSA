@@ -148,6 +148,8 @@
 
 76. Set the rightmost unset bit
 
+77. Power of 2
+
     
 
 
