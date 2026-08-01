@@ -1,0 +1,19 @@
+class Solution {
+    public int matrixScore(int[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        int totalScore = rows * (1 << (cols - 1));
+        for (int col = 1; col < cols; col++) {
+            int countSameAsFirst = 0;
+            
+            for (int row = 0; row < rows; row++) {
+                if (grid[row][col] == grid[row][0]) {
+                    countSameAsFirst++;
+                }
+            }
+            int maxOnes = Math.max(countSameAsFirst, rows - countSameAsFirst);
+            totalScore += maxOnes * (1 << (cols - 1 - col));
+        }
+        
+        return totalScore;
+    }
