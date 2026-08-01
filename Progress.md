@@ -158,6 +158,9 @@
 
 81. Reverse Bits
 
+82. Power of Four
+
+
     
 
 
