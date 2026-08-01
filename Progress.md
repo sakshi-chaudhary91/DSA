@@ -142,6 +142,8 @@
 
 73. Count Pairs Divisible By K
 
+74. Check K-th Bit
+
     
 
 
