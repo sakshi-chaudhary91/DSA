@@ -164,6 +164,8 @@
 
 84. Score After Flipping Matrix
 
+85. Unique Number I
+
 
     
 
