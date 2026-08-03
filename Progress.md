@@ -168,6 +168,9 @@
 
 86. Nth Fibonacci Number
 
+87. Stickler Thief
+
+
 
 
     
