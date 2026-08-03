@@ -172,6 +172,8 @@
 
 88. Min Cost Climbing Stairs
 
+89. Minimum Cost Path
+
 
 
 
