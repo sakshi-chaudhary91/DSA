@@ -1,6 +1,6 @@
 # DSA Progress
 
-1. Replace Consecutive Two Same with One 
+1. Replace Consecutive Two Same with One  
  
 3. Parenthesis Checker
 
