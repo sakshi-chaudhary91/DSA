@@ -180,6 +180,8 @@
 
 92. Friends Pairing Problem
 
+93. Count Square Submatrices with All Ones
+
 
 
 
