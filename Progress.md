@@ -178,6 +178,8 @@
 
 91. Unique Paths 2
 
+92. Friends Pairing Problem
+
 
 
 
