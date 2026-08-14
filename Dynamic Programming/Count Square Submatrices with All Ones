@@ -7,7 +7,7 @@ class Solution {
                     mat[i][j] += Math.min(mat[i - 1][j], 
                                  Math.min(mat[i - 1][j - 1], mat[i][j - 1]));
                 }
-                count += mat[i][j];
+                count += mat[i][j]; 
             }
         }
         
