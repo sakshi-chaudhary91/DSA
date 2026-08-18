@@ -184,6 +184,8 @@
 
 94. Rat in a Maze
 
+95. N-Queen Problem
+
 
 
 
