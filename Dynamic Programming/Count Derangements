@@ -1,0 +1,21 @@
+class Solution {
+    public int derangeCount(int n) {
+        
+        if (n == 1) return 0;
+        if (n == 2) return 1;
+
+        long mod = 1000000007;
+
+        long prev2 = 0;
+        long prev1 = 1; 
+        long current = 0;
+
+        for (int i = 3; i <= n; i++) {
+            current = ((i - 1) * (prev1 + prev2)) % mod;
+            prev2 = prev1;
+            prev1 = current;
+        }
+
+        return (int) current;
+    }
+}
