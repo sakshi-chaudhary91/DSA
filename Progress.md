@@ -182,6 +182,8 @@
 
 93. Count Square Submatrices with All Ones
 
+94. Rat in a Maze
+
 
 
 
