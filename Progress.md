@@ -186,6 +186,8 @@
 
 95. N-Queen Problem
 
+96. The Knight's tour problem
+
 
 
 
