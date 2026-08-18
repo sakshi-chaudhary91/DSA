@@ -188,6 +188,8 @@
 
 96. The Knight's tour problem
 
+97. Permutations
+
 
 
 
