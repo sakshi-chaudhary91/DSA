@@ -194,6 +194,8 @@
 
 99. 0 - 1 Knapsack Problem
 
+100. Coin Change (Minimum Coins)
+
 
 
 
