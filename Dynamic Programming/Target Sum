@@ -1,0 +1,28 @@
+class Solution {
+    public int totalWays(int[] arr, int target) {
+        int absSum = 0;
+        for (int ele : arr) absSum += Math.abs(ele);
+        if (Math.abs(target) > absSum) return 0;
+
+        int[][] dp = new int[arr.length][2 * absSum + 1];
+        for (int[] row : dp) {
+            Arrays.fill(row, -1); 
+        }
+
+        return helper(0, 0, target, arr, dp, absSum);
+    }
+
+    private int helper(int i, int sum, int target, int[] arr, int[][] dp, int absSum) {
+        if (i == arr.length) {
+            return sum == target ? 1 : 0;
+        }
+
+        if (dp[i][sum + absSum] != -1) {
+            return dp[i][sum + absSum];
+        }
+
+        int add = helper(i + 1, sum + arr[i], target, arr, dp, absSum);
+        int subtract = helper(i + 1, sum - arr[i], target, arr, dp, absSum);
+
+        return dp[i][sum + absSum] = add + subtract;
+    }
