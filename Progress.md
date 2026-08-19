@@ -206,6 +206,8 @@
 
 105. Number of Islands
 
+106. Count Islands
+
 
 
 
