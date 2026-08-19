@@ -204,6 +204,8 @@
 
 104. Key and Rooms
 
+105. Number of Islands
+
 
 
 
