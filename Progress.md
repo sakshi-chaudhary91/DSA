@@ -224,6 +224,8 @@
 
 114. Missing in Array
 
+115. Missing Number
+
 
 
 
