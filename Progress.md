@@ -222,6 +222,8 @@
 
 113. Rotate Array By K
 
+114. Missing in Array
+
 
 
 
