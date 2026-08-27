@@ -1,0 +1,23 @@
+class Solution {
+    Vector<Integer> addOne(int[] arr) {
+        Vector<Integer> ans = new Vector<>();
+        int n = arr.length;
+        int startIdx = 0;
+        while (startIdx < n - 1 && arr[startIdx] == 0) {
+            startIdx++;
+        }
+
+        int carry = 1;
+        for (int i = n - 1; i >= startIdx; i--) {
+            int sum = arr[i] + carry;
+            ans.add(sum % 10);
+            carry = sum / 10;
+        }
+        if (carry > 0) {
+            ans.add(carry);
+        }
+        Collections.reverse(ans);
+
+        return ans;
+    }
+}
