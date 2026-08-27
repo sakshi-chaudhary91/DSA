@@ -228,6 +228,8 @@
 
 116. Segregate 0s and 1s
 
+117. Wave Array
+
 
 
 
