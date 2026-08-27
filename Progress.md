@@ -232,6 +232,8 @@
 
 118. Adding One to Array
 
+119. Majority Element
+
 
 
 
