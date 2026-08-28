@@ -18,7 +18,7 @@
 
 10. The Celebrity Problem
 
-12. Number of Visible People in a Queue
+12. Number of Visible People in a Queue 
 
 13. Largest Rectangle in Histogram
 
