@@ -10,7 +10,7 @@
 
 6. Remove Nodes From Linked List       
 
-7. Next Greater Element
+7. Next Greater Element 
 
 8. Next Greater Element 2 
 
