@@ -234,6 +234,8 @@
 
 119. Majority Element
 
+120. Reverse Linked List
+
 
 
 
