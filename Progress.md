@@ -236,6 +236,8 @@
 
 120. Reverse Linked List
 
+121. Valid Parentheses
+
 
 
 
