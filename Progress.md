@@ -244,6 +244,8 @@
 
 124. Remove Duplicates from Sorted Array
 
+125. 3Sum
+
 
 
 
