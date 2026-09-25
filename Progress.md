@@ -248,6 +248,8 @@
 
 126. Trapping Rain Water
 
+127. Squares of a Sorted Array
+
 
 
 
