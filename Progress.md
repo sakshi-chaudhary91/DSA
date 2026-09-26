@@ -250,6 +250,8 @@
 
 127. Squares of a Sorted Array
 
+128. Maximum Average Subarray 1
+
 
 
 
