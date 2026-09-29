@@ -254,6 +254,8 @@
 
 129. Longest Substring Without Repeating Characters
 
+130. Binary Search
+
 
 
 
