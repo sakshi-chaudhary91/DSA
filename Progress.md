@@ -256,6 +256,8 @@
 
 130. Binary Search
 
+131. Binary Search - GFG
+
 
 
 
