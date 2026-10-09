@@ -9,7 +9,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 
 ## 📚 Topics Covered
 - Arrays
-- Binary Search
+- Binary Search 
 - Strings
 - Recursion
 - Linked List
