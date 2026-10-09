@@ -5,7 +5,7 @@ This repository contains my solutions to Data Structures and Algorithms (DSA) pr
 ## 📌 Goals
 - Strengthen problem-solving skills
 - Prepare for coding interviews and placements
-- Maintain a structured record of DSA practice
+- Maintain a structured record of DSA practice 
 
 ## 📚 Topics Covered
 - Arrays
