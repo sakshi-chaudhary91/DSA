@@ -270,6 +270,8 @@
 
 137. Valid Anagram
 
+138. First Unique Character in a String
+
 
 
 
