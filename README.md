@@ -1,6 +1,6 @@
 # DSA in Java
 
-This repository contains my solutions to Data Structures and Algorithms (DSA) problems in Java.
+This repository contains my solutions to Data Structures and Algorithms (DSA) problems in Java. 
 
 ## 📌 Goals
 - Strengthen problem-solving skills
